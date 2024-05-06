@@ -54,7 +54,7 @@ function saveRecipesToStorage(recipes) {
 }
 
 /**
- * Adds the necesarry event handlers to <form> and the clear storage
+ * Adds the necessary event handlers to <form> and the clear storage
  * <button>.
  */
 function initFormHandler() {
@@ -63,7 +63,7 @@ function initFormHandler() {
 	//            submit button is clicked
 	// Steps B4-B9 will occur inside the event listener from step B3
 	// B4. TODO - Create a new FormData object from the <form> element reference above
-	// B5. TODO - Create an empty object (I'll refer to this object as recipeObject to
+	// B5. TODO - Create an empty object (we'll refer to this object as recipeObject to
 	//            make this easier to read), and then extract the keys and corresponding
 	//            values from the FormData object and insert them into recipeObject
 	// B6. TODO - Create a new <recipe-card> element
